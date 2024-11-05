@@ -10,7 +10,7 @@ header {
     grid-column: 1 / 3;
 }
 
-.rightside bar{
+.rightside-bar{
     background: lightblue;
     grid-column: 2 / 3;
 }
