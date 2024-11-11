@@ -7,10 +7,11 @@
     <meta name="description" content=" WDD 131 - Dynamic Web Fundamentals - Esteban Emmanuel Bulacio - Main projects web page.">
     <meta name="author" content="Emmanuel Bulacio">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js"></script>
 </head>
 <body>
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals - <code>Emmanuel Bulacio</code></h1>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Emmanuel Bulacio</span></h1>
         <nav class="navigationbar">
             <a href="https://www.linkedin.com/in/emmanuel-bulacio/" target="_blank">LinkedIn</a>
             <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
@@ -19,36 +20,38 @@
         </nav>
     </header>
     <main>
-        <section class="card">
-            <div>
+        <section class="about-me">
+            <div class="about">
                 <h2>About Me</h2>
                 <p>My name is Emmanuel. I was born in Salta, a beautiful place in
                 the northern of Argentina. I currently work as an english teacher
                 in a remote place close to the borderline between Argentina and 
                 Bolivia. I am marry to Rita and we have a beautiful five year old
                 girl called Amanda. We love to travel and we love birthday parties!</p>
-                <img>
+                <img id="profile-img" src="images/profile.webp" alt="family photo">
             </div>
             <div>
                 <h3>Salta, Argentina</h3>
-                <img>
-                <p></p>
+                <img id="city-img" src="images/salta.jpg" alt="photo of a city.">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste 
+                deserunt dicta ducimus beatae similique quae a! Quisquam animi in 
+                dolore, iste aliquam, earum et molestiae odit id fugiat voluptate
+                consectetur.</p>
             </div>
         </section>
-        <section class="card">
+        <section class="web-dev-resources">
             <h2>Web Dev Resources</h2>
             <ul>
-                <li><a href="#">W3School</a></li>
-                <li><a href="#">Choose a website</a></li>
-                <li><a href="#">Choose another website</a></li>
-                <li><a href="#">Choose another website</a></li>
-                <li><a href="#">Choose another website</a></li>
+                <li><a href="https://www.w3.org/">W3School</a></li>
+                <li><a href="https://byui-cse.github.io/wdd131-ww-course/">WDD 131 Theory</a></li>
+                <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN JavaScript</a></li>
+                <li><a href="https://www.blackbox.ai/">Blackbox IA</a></li>
             </ul>
         </section>
     </main>
     <footer>
-        <p>&<span id="currentyear"></span>Emmanuel Bulacio - Salta, Argentina</p>
-        <p id="lastModified"></p>
+        <p>&<span id="currentyear"></span> Emmanuel Bulacio - Salta, Argentina</p>
+        <p>Last Modification:</p><span id="lastModified"></span>
     </footer>
 </body>
 </html>
