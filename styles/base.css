@@ -3,35 +3,6 @@
 :root{
     --background-h: rgba(41, 41, 255, 0.594);
 }
-/* .sansita-regular {
-    font-family: "Sansita", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.sansita-bold {
-    font-family: "Sansita", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.sansita-regular-italic {
-    font-family: "Sansita", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.sansita-bold-italic {
-    font-family: "Sansita", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-    
-.sansita-extrabold-italic {
-    font-family: "Sansita", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  } */
 
 body{
     height: 100vh;
@@ -68,6 +39,7 @@ main{
     justify-content: space-between;
     padding: 20px;
     gap: 10px;
+    max-width: 1000vh;
 }
 
 .about-me {
