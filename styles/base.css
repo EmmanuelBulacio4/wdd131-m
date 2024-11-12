@@ -41,7 +41,8 @@ body{
 header{
     background-color: var(--background-h);
     text-align: center;
-    padding: 20px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
 }
 
 nav{

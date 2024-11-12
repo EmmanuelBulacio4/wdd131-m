@@ -1,4 +1,9 @@
-let date = new Date();
-let year = date.getFullYear();
-let span = document.getElementById('currentyear');
-span.innerHTML = year;
+const today = new Date();
+
+const year = today.getFullYear();
+
+document.getElementById("currentyear").textContent = year;
+
+let lastModification = new Date(document.lastModified)
+
+document.getElementById("lastModified").textContent = `${lastModification}`;
