@@ -32,36 +32,3 @@ addButton.addEventListener("click", () => {
         alert("Por favor ingresa un capítulo válido.");
     }
 });
-
-
-// const input = document.querySelector("#favchap"); //Lo que escribe el usuario
-// const addButton = document.querySelector("button"); //Boton agregar entrada.
-// const list = document.querySelector("#list"); //Lista de capitulos.
-
-// const listItem = document.createElement("li");   //Crea un item para la lista
-// const deleteButton = document.createElement("button"); 
-
-// listItem.textContent = input.value;  //Guarda el texto de entrada en la variable del listItem
-// deleteButton.textContent = "❌";
-// listItem.append(deleteButton);
-
-// list.append(listItem);
-
-// addButton.addEventListener("click", () => {
-//     const favBook = input.value;
-//     input.value = "";
-
-//     const listBooks =  document.createElement("li");
-//     const listText = createElement("span");
-//     // const listButton = document.createElement("button");
-
-//     listBooks.appendChild(listText);
-//     listText.textContent(favBook);
-//     listItem.appendChild(deleteButton);
-    
-
-
-//     deleteButtonBtn.addEventListener("click", ()=> {
-//         list.removeChild(listItem);
-//     });
-// });
