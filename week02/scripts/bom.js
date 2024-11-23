@@ -10,25 +10,21 @@ addButton.addEventListener("click", () => {
         const listText = document.createElement("span"); // Crea un <span> para el texto
         const deleteButton = document.createElement("button"); // Botón para eliminar
 
-        listText.textContent = favBook; // Añade el texto ingresado al <span>
-        deleteButton.textContent = "❌"; // Texto del botón eliminar
+        listText.textContent = favBook;
+        deleteButton.textContent = "❌";
 
-        // Añade los elementos al <li> y luego a la lista
         listItem.appendChild(listText);
         listItem.appendChild(deleteButton);
         list.appendChild(listItem);
 
-        // Limpia el campo de entrada
-        input.value = "";
+        input.value = "";  //Limpia el ingreso de texto
 
-        // Evento para eliminar el elemento de la lista
         deleteButton.addEventListener("click", () => {
             list.removeChild(listItem);
         });
 
-        // Regresa el foco al campo de entrada
-        input.focus();
+        input.focus(); // Regresa el foco al campo de entrada
     } else {
-        alert("Por favor ingresa un capítulo válido.");
+        alert("Enter a valid book and Chapter.");
     }
 });
