@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
     --background-color-1: rgb(99, 99, 162);
-    --background-color-2:;
+    --background-color-2: rgb(123, 9, 9);
     --color1: black;
     --color2: white;
 }
@@ -18,27 +18,34 @@ header{
 h1{
     align-items: left;
     padding: 0.5rem;
+    font-family: "Parkisans";
+    color: var(--color1);
+}
+
+li :hover{
+    background-color: var(--background-color-2);
+    color: var(--color2);
+    text-decoration: none;
+    padding: 1rem;
 }
 
 h2{
     text-align: center;
+    font-family: sans-serif;
+    color: var(--color1);
+    font-family: "Parkisans";
 }
-
-li{
-    display: none;
-}
-
 
 #temples{
     display: grid;
     grid-template-columns: 1fr;
 }
 
-#hamburger::before {
+#hamburger::before {   /*Marco el comportamiento antes del evento */
     content: "☰";
 }
 
-#hamburger.open::before {
+#hamburger.open::before { /*Mrco el comportamiento despues del evento */
     content: "❌";
 }
 
@@ -57,23 +64,55 @@ ul{
     justify-content: space-around;
 }
 
-
-h1, h2{
-    font-family: sans-serif;
-    color: var(--color1);
-}
-
 img{
     max-width: 250px;
 }
 
-div{
+figure{
+    margin: 0 auto;
 }
 
-figure{
+figcaption{
+    color: var(--color1);
+    text-align: left;
+    font-family: "Parkisans";
+    font-weight: 300;
 }
+
+.navigation ul {
+    display: none;
+    margin: 0;
+    list-style-type: none;
+    background-color: var(--background-color2);
+    border: 2px solid var(--background-color1);
+}
+
+.navigation li {
+    text-align: center;
+    display: block;
+    color: var(--color2);
+    margin: 1rem auto 0 auto;
+    font-family: "Parkisans";
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navigation li:hover {
+    background-color: var(--background-color1);
+}
+
+.navigation.open ul {
+    display: block;
+    padding: 15px;
+}
+
 
 footer{
     text-align: center;
     border-top: 2px solid white;
+}
+
+footer p{
+    font-family: "Parkisans";
+    color: var(--background-color1);
 }
