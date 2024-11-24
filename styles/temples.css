@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --background-color-1: rgb(99, 99, 162);
+    --background-color-2:;
+    --color1: black;
+    --color2: white;
+}
+body{
+    background-color: var(--background-color-1);
+    max-width: 640px;
+    margin: 20px;
+}
+
+header{
+    border-bottom: 2px solid white;
+}
+
+h1{
+    align-items: left;
+    padding: 0.5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+li{
+    display: none;
+}
+
+
+#temples{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#hamburger::before {
+    content: "☰";
+}
+
+#hamburger.open::before {
+    content: "❌";
+}
+
+#hamburger {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: var(--color1);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h1, h2{
+    font-family: sans-serif;
+    color: var(--color1);
+}
+
+img{
+    max-width: 250px;
+}
+
+div{
+}
+
+figure{
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid white;
+}

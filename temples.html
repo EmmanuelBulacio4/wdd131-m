@@ -4,25 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="A website of temples. Available to mobile divices and Computers.">
+    <title>WDD 131 - Dynamic Web Fundamentals - Temples</title>
+    <meta name="description" content="WDD 131- Dynamic Web Fundamentals | Emmanuel Bulacio">
     <meta name="author" content="Emmanuel Bulacio">
     <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
     <script src="scripts/temple.js" defer></script>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Old</a>
-            <a href="">New</a>
-            <a href="">Large</a>
-            <a href="">Small</a>
+        <h1>Temples Album</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Old</a></li>
+                <li><a href="">New</a></li>
+                <li><a href="">Large</a></li>
+                <li><a href="">Small</a></li>
+            </ul>
         </nav>
+        <button id="hamburger"></button>
     </header>
     <main>
-        <h1>Temples Album</h1>
-        <div id="templelist">
+        <h2>Home</h2>
+        <div id="temples">
             <figure>
                 <img src="images/Buenos_aires_temple.jpg" alt="Buenos Aires Argentina Temple">
                 <figcaption>Buenos Aires Argentina Temple</figcaption>
@@ -62,7 +67,7 @@
         </div>
     <footer>
         <p>&<span id="currentyear"></span> Emmanuel Bulacio - Salta, Argentina</p>
-        <p>Last Modification:</p><span id="lastModified"></span>
+        <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
 </body>
 </html>
