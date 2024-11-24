@@ -22,6 +22,10 @@ h1{
     color: var(--color1);
 }
 
+a{
+    color: var(--color2);
+}
+
 li :hover{
     background-color: var(--background-color-2);
     color: var(--color2);
@@ -75,6 +79,7 @@ figure{
 figcaption{
     color: var(--color1);
     text-align: left;
+    padding-bottom: 20px;
     font-family: "Parkisans";
     font-weight: 300;
 }
