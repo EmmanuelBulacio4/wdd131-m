@@ -102,7 +102,7 @@ figcaption{
     font-style: normal;
 }
 
-.navigation li:hover {
+nav a {
     background-color: var(--background-color1);
 }
 
