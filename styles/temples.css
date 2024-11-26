@@ -26,12 +26,12 @@ a{
     color: var(--color2);
 }
 
-nav li :hover{
+/* nav li :hover{
     background-color: var(--background-color-2);
     color: var(--color2);
     text-decoration: none;
     padding: 1rem;
-}
+} */
 
 h2{
     text-align: center;
