@@ -80,6 +80,13 @@ figcaption{
     font-weight: 300;
 }
 
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
 .navigation ul {
     display: none;
     margin: 0;
