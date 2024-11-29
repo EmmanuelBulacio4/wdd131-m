@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Dinamic Web Fundamentals | Emmanuel Bulacio</title>
+    <meta name="description" content="WDD 131 | Dinamic Web Fundamentals | Emmanuel Bulacio">
+    <meta name="author" content="Emmanuel Bulacio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Argentina</h1>
+    </header>
+    <main>
+        <div id="hero">
+            <picture>                
+                <source id="bigimg" srcset="images/argentina-hero.jpg" media="(min-width: 641px)">
+                <source srcset="images/argentina-mobile.webp" media="(max-width: 640px)">
+                <img src="images/argentina-mobile.webp" alt="Paisaje de Argentina">
+            </picture> 
+        </div>
+        <section id="data">
+            <h2>Data</h2>
+            <div>
+                <h3>Area:</h3> 
+                <p>2780400 km²</p>
+                <h3>Population:</h3> 
+                <p>46650000</p>
+                <h3>Capital:</h3> 
+                <p>Buenos Aires</p>
+                <h3>Language:</h3> 
+                <p>Spanish</p>
+                <h3>Currency:</h3> 
+                <p>Peso argentino ($)</p>
+                <h3>Time Zone:</h3> 
+                <p>GMT -3</p>
+                <h3>Calling Code:</h3> 
+                <p>+54</p>
+                <h3>Internet TLD:</h3> 
+                <p>.ar</p>
+            </div>
+        </section>
+        <section id="weather">
+            <h2>Weather<span><img src="images/weather_icon.svg" alt="weather-icon"></span></h2>
+            <div>
+                <h3></h3>
+                <p></p>
+                <h3></h3>
+                <p></p>
+                <h3></h3>
+                <p></p>
+                <h3></h3>
+                <p></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&<span id="currentyear"></span> Emmanuel Bulacio - Salta, Argentina</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
