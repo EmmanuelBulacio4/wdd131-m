@@ -15,11 +15,12 @@ body{
     max-width: 640px;
     justify-content: center;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 header{
     background-color: var(--argentinian-blue);
-    width: 100%;
+    width: auto;
     padding: 2rem;
     border-bottom: 2rem solid var(--argentinian-yellow);
     max-width: 640px;
@@ -35,6 +36,7 @@ h1{
 #hero source{
     display: block;
     max-width: 640px;
+    height: auto;
 }
 
 #data, #weather{
@@ -70,6 +72,7 @@ h1{
 }
 
 footer{
+    width: 640px;
     text-align: center;
     font-family: "Handlee", cursive;
     background-color: var(--argentinian-blue);
