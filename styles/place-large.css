@@ -10,11 +10,19 @@ body{
 header{
     background-color: var(--argentinian-blue);
     padding: 1rem;
+    width: auto;
     text-align: center;
     font-family: "Handlee";
     font-weight: 600;
     font-size: 3rem;
     border-bottom: 1rem solid var(--argentinian-yellow);
+}
+
+#bigimg{
+    display: flex;
+    justify-content: center;
+    max-width: 100vh;
+    width: auto;
 }
 
 #bigimg{
